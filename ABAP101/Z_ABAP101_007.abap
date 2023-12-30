@@ -9,3 +9,6 @@ TYPES lty_sflight TYPE SFLIGHT.
 
 *This creates a custom data type named 'lty_sflight'
 *that matches the structure 'SFLIGHT'.
+*or
+
+TYPES same_type_of_sflight TYPE SFLIGHT.
