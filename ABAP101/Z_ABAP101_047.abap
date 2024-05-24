@@ -1,5 +1,5 @@
 *Write an executable program that reads the current system time and write the time in 6
-* different zones (3 of them should be compulsorily Greenwich, Delhi and Brasilia).
+*different zones (3 of them should be compulsorily Greenwich, Delhi and Brasilia).
 
 REPORT Z_ABAP101_047.
 

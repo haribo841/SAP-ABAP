@@ -32,38 +32,38 @@ CASE lv_month.
 ENDCASE.
 
 CASE lv_day.
- WHEN 1. lv_day_text = 'First'.
- WHEN 2. lv_day_text = 'Second'.
- WHEN 3. lv_day_text = 'Third'.
- WHEN 4. lv_day_text = 'Fourth'.
- WHEN 5. lv_day_text = 'Fifth'.
- WHEN 6. lv_day_text = 'Sixth'.
- WHEN 7. lv_day_text = 'Seventh'.
- WHEN 8. lv_day_text = 'Eighth'.
- WHEN 9. lv_day_text = 'Ninth'.
- WHEN 10. lv_day_text = 'Tenth'.
- WHEN 11. lv_day_text = 'Eleventh'.
- WHEN 12. lv_day_text = 'Twelfth'.
- WHEN 13. lv_day_text = 'Thirteenth'.
- WHEN 14. lv_day_text = 'Fourteenth'.
- WHEN 15. lv_day_text = 'Fifteenth'.
- WHEN 16. lv_day_text = 'Sixteenth'.
- WHEN 17. lv_day_text = 'Seventeenth'.
- WHEN 18. lv_day_text = 'Eighteenth'.
- WHEN 19. lv_day_text = 'Nineteenth'.
- WHEN 20. lv_day_text = 'Twentieth'.
- WHEN 21. lv_day_text = 'Twenty-First'.
- WHEN 22. lv_day_text = 'Twenty-Second'.
- WHEN 23. lv_day_text = 'Twenty-Third'.
- WHEN 24. lv_day_text = 'Twenty-Fourth'.
- WHEN 25. lv_day_text = 'Twenty-Fifth'.
- WHEN 26. lv_day_text = 'Twenty-Sixth'.
- WHEN 27. lv_day_text = 'Twenty-Seventh'.
- WHEN 28. lv_day_text = 'Twenty-Eighth'.
- WHEN 29. lv_day_text = 'Twenty-Ninth'.
- WHEN 30. lv_day_text = 'Thirtieth'.
- WHEN 31. lv_day_text = 'Thirty-First'.
- WHEN OTHERS.
+    WHEN 1. lv_day_text = 'First'.
+    WHEN 2. lv_day_text = 'Second'.
+    WHEN 3. lv_day_text = 'Third'.
+    WHEN 4. lv_day_text = 'Fourth'.
+    WHEN 5. lv_day_text = 'Fifth'.
+    WHEN 6. lv_day_text = 'Sixth'.
+    WHEN 7. lv_day_text = 'Seventh'.
+    WHEN 8. lv_day_text = 'Eighth'.
+    WHEN 9. lv_day_text = 'Ninth'.
+    WHEN 10. lv_day_text = 'Tenth'.
+    WHEN 11. lv_day_text = 'Eleventh'.
+    WHEN 12. lv_day_text = 'Twelfth'.
+    WHEN 13. lv_day_text = 'Thirteenth'.
+    WHEN 14. lv_day_text = 'Fourteenth'.
+    WHEN 15. lv_day_text = 'Fifteenth'.
+    WHEN 16. lv_day_text = 'Sixteenth'.
+    WHEN 17. lv_day_text = 'Seventeenth'.
+    WHEN 18. lv_day_text = 'Eighteenth'.
+    WHEN 19. lv_day_text = 'Nineteenth'.
+    WHEN 20. lv_day_text = 'Twentieth'.
+    WHEN 21. lv_day_text = 'Twenty-First'.
+    WHEN 22. lv_day_text = 'Twenty-Second'.
+    WHEN 23. lv_day_text = 'Twenty-Third'.
+    WHEN 24. lv_day_text = 'Twenty-Fourth'.
+    WHEN 25. lv_day_text = 'Twenty-Fifth'.
+    WHEN 26. lv_day_text = 'Twenty-Sixth'.
+    WHEN 27. lv_day_text = 'Twenty-Seventh'.
+    WHEN 28. lv_day_text = 'Twenty-Eighth'.
+    WHEN 29. lv_day_text = 'Twenty-Ninth'.
+    WHEN 30. lv_day_text = 'Thirtieth'.
+    WHEN 31. lv_day_text = 'Thirty-First'.
+    WHEN OTHERS.
 ENDCASE.
 
 lv_prefinal_text = lv_day_text && ','.

@@ -12,7 +12,7 @@ lv_string = p_input.
 lv_length = STRLEN( lv_string ).
 
 IF lv_length > 20.
-WRITE: 'Too big'.
+    WRITE: 'Too big'.
 ELSE.
- WRITE: / 'String length is', lv_length.
+    WRITE: / 'String length is', lv_length.
 ENDIF.
