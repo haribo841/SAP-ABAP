@@ -1,5 +1,5 @@
-*Create a transaction which points to a program and fills its selection screen automatically
-using a predefined variant.
+*Create a program with one parameter representing an executable program name (also known
+as report). The program should execute the program entered in the parameter.
 
 REPORT Z_ABAP101_099.
 
