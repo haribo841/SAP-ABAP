@@ -1,5 +1,6 @@
-*Create a program with one parameter representing an executable program name (also known
-as report). The program should execute the program entered in the parameter.
+*Create a program with one parameter representing an executable program name
+*(also known as report).
+*The program should execute the program entered in the parameter.
 
 REPORT Z_ABAP101_099.
 
